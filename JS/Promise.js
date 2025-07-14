@@ -79,6 +79,8 @@ async function getData(){
         return data;
     }catch(err){
         console.log(err);
+    }finally{
+        console.log("This is a finally block in async await")
     }
 }
 
